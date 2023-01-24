@@ -5,7 +5,6 @@ form{
     align-items: center;
     margin-top: 50px;
 }
-
 form fieldset{
     width: fit-content;
     border: 1px solid gray;
@@ -17,7 +16,6 @@ form fieldset legend{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 form fieldset button{
     border: 0;
     outline: 0;
@@ -29,18 +27,15 @@ form fieldset button{
     border: 1px solid transparent;
 
 }
-
 form fieldset #done{
     background-color: rgba(255, 0, 0, 0.6);
     color: white;
 }
-
 form fieldset #done:hover{
     color: rgba(255, 0, 0, 0.6);
     background-color: white;
     border: 1px solid rgba(255, 0, 0, 0.6);
 }
-
 form fieldset #add-value{
     background-color: navy;
     color: white;
@@ -50,7 +45,6 @@ form fieldset #add-value:hover{
     background-color: white;
     color: navy;
 }
-
 form fieldset #variations input[type="text"]{
     margin: 5px;
     padding: 10px;
@@ -59,16 +53,13 @@ form fieldset #variations input[type="text"]{
     outline: none;
     border-radius: 5px;
 }
-
 #variation-value-list ul{
     margin: 0 !important;
     padding: 0 !important;
 }
-
 #variation-value-list ul li{
     display: none;
 }
-
 .remove-value{
     display: inline-flex;
     justify-content: center;
@@ -80,19 +71,16 @@ form fieldset #variations input[type="text"]{
     border-radius: 5px;
     font-size: 24px;
 }
-
 .remove-value:hover{
     color: white;
     background-color: red;
 }
-
 #variation-value-list{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
 .remove-value{
     cursor: pointer;
 }
